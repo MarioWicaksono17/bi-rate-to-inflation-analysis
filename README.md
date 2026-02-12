@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This project analyzes the relationship between Indonesia’s policy interest rate (BI 7-Day Reverse Repo Rate) and inflation over the period 2016–2025.
+This project analyzes the relationship between Indonesia’s policy interest rate (BI 7-Day Reverse Repo Rate) and inflation using monthly data from April 2016 to December 2025.
 
 The objective is to examine whether changes in the BI Rate influence inflation dynamics, particularly considering potential time-lag effects in monetary policy transmission.
 
