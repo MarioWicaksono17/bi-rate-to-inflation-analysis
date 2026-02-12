@@ -1,0 +1,112 @@
+
+=== Regression Result (Lag 1) ===
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              inflation   R-squared:                       0.003
+Model:                            OLS   Adj. R-squared:                 -0.005
+Method:                 Least Squares   F-statistic:                    0.3669
+Date:                Mon, 09 Feb 2026   Prob (F-statistic):              0.546
+Time:                        16:59:27   Log-Likelihood:                -177.29
+No. Observations:                 117   AIC:                             358.6
+Df Residuals:                     115   BIC:                             364.1
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const           2.5476      0.571      4.464      0.000       1.417       3.678
+bi_rate_lag     0.0690      0.114      0.606      0.546      -0.157       0.295
+==============================================================================
+Omnibus:                        5.115   Durbin-Watson:                   0.107
+Prob(Omnibus):                  0.078   Jarque-Bera (JB):                4.526
+Skew:                           0.421   Prob(JB):                        0.104
+Kurtosis:                       3.468   Cond. No.                         28.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+=== Regression Result (Lag 2) ===
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              inflation   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.008
+Method:                 Least Squares   F-statistic:                   0.03288
+Date:                Mon, 09 Feb 2026   Prob (F-statistic):              0.856
+Time:                        16:59:27   Log-Likelihood:                -176.36
+No. Observations:                 116   AIC:                             356.7
+Df Residuals:                     114   BIC:                             362.2
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const           2.9863      0.574      5.202      0.000       1.849       4.123
+bi_rate_lag    -0.0208      0.114     -0.181      0.856      -0.248       0.206
+==============================================================================
+Omnibus:                        3.744   Durbin-Watson:                   0.107
+Prob(Omnibus):                  0.154   Jarque-Bera (JB):                3.150
+Skew:                           0.371   Prob(JB):                        0.207
+Kurtosis:                       3.316   Cond. No.                         28.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+=== Regression Result (Lag 3) ===
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              inflation   R-squared:                       0.008
+Model:                            OLS   Adj. R-squared:                 -0.001
+Method:                 Least Squares   F-statistic:                    0.8936
+Date:                Mon, 09 Feb 2026   Prob (F-statistic):              0.347
+Time:                        16:59:27   Log-Likelihood:                -174.77
+No. Observations:                 115   AIC:                             353.5
+Df Residuals:                     113   BIC:                             359.0
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const           3.4127      0.574      5.944      0.000       2.275       4.550
+bi_rate_lag    -0.1082      0.114     -0.945      0.347      -0.335       0.119
+==============================================================================
+Omnibus:                        2.077   Durbin-Watson:                   0.107
+Prob(Omnibus):                  0.354   Jarque-Bera (JB):                1.672
+Skew:                           0.288   Prob(JB):                        0.433
+Kurtosis:                       3.135   Cond. No.                         28.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+=== Regression Result (Lag 4) ===
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              inflation   R-squared:                       0.023
+Model:                            OLS   Adj. R-squared:                  0.015
+Method:                 Least Squares   F-statistic:                     2.666
+Date:                Mon, 09 Feb 2026   Prob (F-statistic):              0.105
+Time:                        16:59:27   Log-Likelihood:                -172.82
+No. Observations:                 114   AIC:                             349.6
+Df Residuals:                     112   BIC:                             355.1
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const           3.7949      0.572      6.631      0.000       2.661       4.929
+bi_rate_lag    -0.1862      0.114     -1.633      0.105      -0.412       0.040
+==============================================================================
+Omnibus:                        0.676   Durbin-Watson:                   0.109
+Prob(Omnibus):                  0.713   Jarque-Bera (JB):                0.594
+Skew:                           0.175   Prob(JB):                        0.743
+Kurtosis:                       2.949   Cond. No.                         28.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
