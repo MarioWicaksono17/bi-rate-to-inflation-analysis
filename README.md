@@ -1,4 +1,4 @@
-# Impact of BI Rate Changes on Inflation (2016–2025)
+# BI Rate and Inflation Dynamics Using Time-Series Analysis (2016–2025)
 
 ## 📌 Project Overview
 
